@@ -7,15 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6A332A991EAF7305002EE172 /* Food+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A332A931EAF7305002EE172 /* Food+CoreDataClass.swift */; };
+		6A332A9A1EAF7305002EE172 /* Food+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A332A941EAF7305002EE172 /* Food+CoreDataProperties.swift */; };
+		6A332A9D1EAF7305002EE172 /* User+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A332A971EAF7305002EE172 /* User+CoreDataClass.swift */; };
+		6A332A9E1EAF7305002EE172 /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A332A981EAF7305002EE172 /* User+CoreDataProperties.swift */; };
 		6A4D7D621EACAA9C00B64DFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A4D7D611EACAA9C00B64DFF /* AppDelegate.swift */; };
 		6A4D7D641EACAA9C00B64DFF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A4D7D631EACAA9C00B64DFF /* ViewController.swift */; };
 		6A4D7D671EACAA9C00B64DFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A4D7D651EACAA9C00B64DFF /* Main.storyboard */; };
 		6A4D7D6A1EACAA9C00B64DFF /* iFood.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6A4D7D681EACAA9C00B64DFF /* iFood.xcdatamodeld */; };
 		6A4D7D6C1EACAA9C00B64DFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A4D7D6B1EACAA9C00B64DFF /* Assets.xcassets */; };
 		6A4D7D6F1EACAA9C00B64DFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A4D7D6D1EACAA9C00B64DFF /* LaunchScreen.storyboard */; };
+		6A6591761EBFC78F0095DDE0 /* PeerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6591751EBFC78F0095DDE0 /* PeerViewController.swift */; };
+		6A6591781EBFC7990095DDE0 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6591771EBFC7990095DDE0 /* ChatViewController.swift */; };
+		6AA9C2141EBD26B600797813 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA9C2131EBD26B600797813 /* RoundButton.swift */; };
+		6AB511C11EB7DE0A0092580E /* FoodConnectServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB511C01EB7DE0A0092580E /* FoodConnectServiceManager.swift */; };
+		6AF542D41EC1427100CDAA83 /* Bill+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF542D21EC1427100CDAA83 /* Bill+CoreDataClass.swift */; };
+		6AF542D51EC1427100CDAA83 /* Bill+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF542D31EC1427100CDAA83 /* Bill+CoreDataProperties.swift */; };
+		6AF542D71EC1437700CDAA83 /* OrderTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF542D61EC1437700CDAA83 /* OrderTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6A332A931EAF7305002EE172 /* Food+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Food+CoreDataClass.swift"; sourceTree = "<group>"; };
+		6A332A941EAF7305002EE172 /* Food+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Food+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		6A332A971EAF7305002EE172 /* User+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "User+CoreDataClass.swift"; sourceTree = "<group>"; };
+		6A332A981EAF7305002EE172 /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "User+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		6A4D7D5E1EACAA9C00B64DFF /* iFood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iFood.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A4D7D611EACAA9C00B64DFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6A4D7D631EACAA9C00B64DFF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +39,13 @@
 		6A4D7D6B1EACAA9C00B64DFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6A4D7D6E1EACAA9C00B64DFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6A4D7D701EACAA9C00B64DFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A6591751EBFC78F0095DDE0 /* PeerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeerViewController.swift; sourceTree = "<group>"; };
+		6A6591771EBFC7990095DDE0 /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		6AA9C2131EBD26B600797813 /* RoundButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
+		6AB511C01EB7DE0A0092580E /* FoodConnectServiceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodConnectServiceManager.swift; sourceTree = "<group>"; };
+		6AF542D21EC1427100CDAA83 /* Bill+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bill+CoreDataClass.swift"; sourceTree = "<group>"; };
+		6AF542D31EC1427100CDAA83 /* Bill+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bill+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		6AF542D61EC1437700CDAA83 /* OrderTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +62,12 @@
 		6A4D7D551EACAA9C00B64DFF = {
 			isa = PBXGroup;
 			children = (
+				6AF542D21EC1427100CDAA83 /* Bill+CoreDataClass.swift */,
+				6AF542D31EC1427100CDAA83 /* Bill+CoreDataProperties.swift */,
+				6A332A931EAF7305002EE172 /* Food+CoreDataClass.swift */,
+				6A332A941EAF7305002EE172 /* Food+CoreDataProperties.swift */,
+				6A332A971EAF7305002EE172 /* User+CoreDataClass.swift */,
+				6A332A981EAF7305002EE172 /* User+CoreDataProperties.swift */,
 				6A4D7D601EACAA9C00B64DFF /* iFood */,
 				6A4D7D5F1EACAA9C00B64DFF /* Products */,
 			);
@@ -56,13 +84,18 @@
 		6A4D7D601EACAA9C00B64DFF /* iFood */ = {
 			isa = PBXGroup;
 			children = (
+				6A6591771EBFC7990095DDE0 /* ChatViewController.swift */,
+				6A6591751EBFC78F0095DDE0 /* PeerViewController.swift */,
+				6AA9C2131EBD26B600797813 /* RoundButton.swift */,
 				6A4D7D611EACAA9C00B64DFF /* AppDelegate.swift */,
 				6A4D7D631EACAA9C00B64DFF /* ViewController.swift */,
+				6AB511C01EB7DE0A0092580E /* FoodConnectServiceManager.swift */,
+				6AF542D61EC1437700CDAA83 /* OrderTableViewController.swift */,
+				6A4D7D681EACAA9C00B64DFF /* iFood.xcdatamodeld */,
 				6A4D7D651EACAA9C00B64DFF /* Main.storyboard */,
 				6A4D7D6B1EACAA9C00B64DFF /* Assets.xcassets */,
 				6A4D7D6D1EACAA9C00B64DFF /* LaunchScreen.storyboard */,
 				6A4D7D701EACAA9C00B64DFF /* Info.plist */,
-				6A4D7D681EACAA9C00B64DFF /* iFood.xcdatamodeld */,
 			);
 			path = iFood;
 			sourceTree = "<group>";
@@ -99,6 +132,7 @@
 				TargetAttributes = {
 					6A4D7D5D1EACAA9C00B64DFF = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = R2UQ32C3TM;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -139,9 +173,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A332A991EAF7305002EE172 /* Food+CoreDataClass.swift in Sources */,
+				6AA9C2141EBD26B600797813 /* RoundButton.swift in Sources */,
 				6A4D7D641EACAA9C00B64DFF /* ViewController.swift in Sources */,
 				6A4D7D6A1EACAA9C00B64DFF /* iFood.xcdatamodeld in Sources */,
+				6A332A9D1EAF7305002EE172 /* User+CoreDataClass.swift in Sources */,
+				6AB511C11EB7DE0A0092580E /* FoodConnectServiceManager.swift in Sources */,
 				6A4D7D621EACAA9C00B64DFF /* AppDelegate.swift in Sources */,
+				6AF542D41EC1427100CDAA83 /* Bill+CoreDataClass.swift in Sources */,
+				6AF542D71EC1437700CDAA83 /* OrderTableViewController.swift in Sources */,
+				6A6591781EBFC7990095DDE0 /* ChatViewController.swift in Sources */,
+				6AF542D51EC1427100CDAA83 /* Bill+CoreDataProperties.swift in Sources */,
+				6A332A9E1EAF7305002EE172 /* User+CoreDataProperties.swift in Sources */,
+				6A332A9A1EAF7305002EE172 /* Food+CoreDataProperties.swift in Sources */,
+				6A6591761EBFC78F0095DDE0 /* PeerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,7 +307,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = R2UQ32C3TM;
 				INFOPLIST_FILE = iFood/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.iFood;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -274,7 +322,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = R2UQ32C3TM;
 				INFOPLIST_FILE = iFood/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.iFood;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -301,6 +352,7 @@
 				6A4D7D751EACAA9C00B64DFF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
